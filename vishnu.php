@@ -31,10 +31,11 @@ body {background-image: url(https://cdn.pixabay.com/photo/2021/02/16/18/55/gamer
     //if(isset($_POST['name'])){
 
     
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "connectfour";
+    $server = "ec2-44-193-111-218.compute-1.amazonaws.com";
+    $username = "vevkiavjostlms";
+    $password = "aa4fbcc0751c7e95565e2ed02f2cd5d928aad6081c29cfae806e5dbbc9602be6";
+    $database = "d4bhh88qaq2iko";
+
 
   $con = mysqli_connect($server,$username,$password,$database);
 
